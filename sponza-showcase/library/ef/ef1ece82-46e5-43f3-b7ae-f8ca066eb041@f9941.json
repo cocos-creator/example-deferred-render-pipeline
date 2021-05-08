@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "exitLeft",
+    "atlas": "",
+    "rect": {
+      "x": 18,
+      "y": 26,
+      "width": 62,
+      "height": 56
+    },
+    "offset": {
+      "x": -1,
+      "y": -4
+    },
+    "originalSize": {
+      "width": 100,
+      "height": 100
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "texture": "ef1ece82-46e5-43f3-b7ae-f8ca066eb041@6c48a",
+    "packable": true
+  }
+}

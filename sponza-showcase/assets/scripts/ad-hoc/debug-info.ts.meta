@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.22",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "645d2f14-2411-478e-95a7-b1e2c04315f6",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/scripts/ad-hoc/debug-info.js",
+    "simulateGlobals": []
+  }
+}

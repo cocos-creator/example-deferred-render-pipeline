@@ -1,0 +1,30 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "panelBG",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 27,
+      "height": 30
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 27,
+      "height": 30
+    },
+    "rotated": false,
+    "capInsets": [
+      11,
+      12,
+      11,
+      15
+    ],
+    "texture": "18abe283-bda0-4c34-820a-eacb447b8d55@6c48a",
+    "packable": true
+  }
+}

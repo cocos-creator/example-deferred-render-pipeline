@@ -1,0 +1,426 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 4333,
+      "max": [
+        0.9685807824134827,
+        0.9256812930107117,
+        0.14182333648204803
+      ],
+      "min": [
+        -0.9778614640235901,
+        -0.9157722592353821,
+        -0.0367717444896698
+      ],
+      "name": "S_AC4A6185/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 4333,
+      "name": "S_AC4A6185/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 4333,
+      "name": "S_AC4A6185/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 4333,
+      "name": "S_AC4A6185/TEXCOORD_1",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 25473,
+      "name": "S_AC4A6185/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2193,
+      "max": [
+        0.9684497117996216,
+        0.9256812930107117,
+        0.14134472608566284
+      ],
+      "min": [
+        -0.9778236150741577,
+        -0.9159461259841919,
+        -0.03690117225050926
+      ],
+      "name": "S_AC4A6185/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 2193,
+      "name": "S_AC4A6185/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 2193,
+      "name": "S_AC4A6185/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 2193,
+      "name": "S_AC4A6185/TEXCOORD_1",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 12738,
+      "name": "S_AC4A6185/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 1117,
+      "max": [
+        0.9684497117996216,
+        0.9256812930107117,
+        0.14239762723445892
+      ],
+      "min": [
+        -0.9777011871337891,
+        -0.9159461259841919,
+        -0.03642820194363594
+      ],
+      "name": "S_AC4A6185/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 1117,
+      "name": "S_AC4A6185/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 1117,
+      "name": "S_AC4A6185/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 1117,
+      "name": "S_AC4A6185/TEXCOORD_1",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 6369,
+      "name": "S_AC4A6185/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 569,
+      "max": [
+        0.9691442251205444,
+        0.9256812930107117,
+        0.14239762723445892
+      ],
+      "min": [
+        -0.9777011871337891,
+        -0.9159461259841919,
+        -0.03830960392951965
+      ],
+      "name": "S_AC4A6185/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 569,
+      "name": "S_AC4A6185/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 569,
+      "name": "S_AC4A6185/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 569,
+      "name": "S_AC4A6185/TEXCOORD_1",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5125,
+      "count": 3183,
+      "name": "S_AC4A6185/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 88,
+      "max": [
+        0.9695807695388794,
+        0.9274998307228088,
+        0.14282333850860596
+      ],
+      "min": [
+        -0.9788614511489868,
+        -0.9167723059654236,
+        -0.03777175396680832
+      ],
+      "name": "UCX_S_AC4A6185/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 88,
+      "name": "UCX_S_AC4A6185/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5125,
+      "count": 162,
+      "name": "UCX_S_AC4A6185/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 173320,
+      "byteStride": 40,
+      "name": "S_AC4A6185",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 101892,
+      "byteOffset": 173320
+    },
+    {
+      "buffer": 0,
+      "byteLength": 87720,
+      "byteOffset": 275212,
+      "byteStride": 40,
+      "name": "S_AC4A6185",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 50952,
+      "byteOffset": 362932
+    },
+    {
+      "buffer": 0,
+      "byteLength": 44680,
+      "byteOffset": 413884,
+      "byteStride": 40,
+      "name": "S_AC4A6185",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 25476,
+      "byteOffset": 458564
+    },
+    {
+      "buffer": 0,
+      "byteLength": 22760,
+      "byteOffset": 484040,
+      "byteStride": 40,
+      "name": "S_AC4A6185",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12732,
+      "byteOffset": 506800
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2112,
+      "byteOffset": 519532,
+      "byteStride": 24,
+      "name": "UCX_S_AC4A6185",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 648,
+      "byteOffset": 521644
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 522292,
+      "uri": "out.bin"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "S_AC4A6185",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 4
+        }
+      ]
+    },
+    {
+      "name": "S_AC4A6185",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7,
+            "TEXCOORD_1": 8
+          },
+          "indices": 9
+        }
+      ]
+    },
+    {
+      "name": "S_AC4A6185",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TEXCOORD_0": 12,
+            "TEXCOORD_1": 13
+          },
+          "indices": 14
+        }
+      ]
+    },
+    {
+      "name": "S_AC4A6185",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 16,
+            "POSITION": 15,
+            "TEXCOORD_0": 17,
+            "TEXCOORD_1": 18
+          },
+          "indices": 19
+        }
+      ]
+    },
+    {
+      "name": "UCX_S_AC4A6185",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 21,
+            "POSITION": 20
+          },
+          "indices": 22
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "name": "S_AC4A6185",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "S_AC4A6185_LOD0"
+    },
+    {
+      "mesh": 1,
+      "name": "S_AC4A6185_LOD1"
+    },
+    {
+      "mesh": 2,
+      "name": "S_AC4A6185_LOD2"
+    },
+    {
+      "mesh": 3,
+      "name": "S_AC4A6185_LOD3"
+    },
+    {
+      "mesh": 4,
+      "name": "UCX_S_AC4A6185_LOD0",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        5
+      ]
+    }
+  ]
+}

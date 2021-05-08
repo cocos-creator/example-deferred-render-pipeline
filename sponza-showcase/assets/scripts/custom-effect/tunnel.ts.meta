@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.22",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "a6060209-7611-47ea-adde-108f4acc4e50",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/scripts/custom-effect/tunnel.js",
+    "simulateGlobals": []
+  }
+}

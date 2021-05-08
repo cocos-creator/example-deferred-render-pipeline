@@ -1,0 +1,578 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Sponza",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_active": true,
+    "_components": [],
+    "_prefab": {
+      "__id__": 7
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Node-0",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 3
+      }
+    ],
+    "_prefab": {
+      "__id__": 6
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 0.00800000037997961,
+      "y": 0.00800000037997961,
+      "z": 0.00800000037997961
+    },
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": ""
+  },
+  {
+    "__type__": "cc.MeshRenderer",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "__prefab": {
+      "__id__": 4
+    },
+    "_materials": [
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@28448",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@06d7a",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d71e7",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@ff265",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@923ad",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d8977",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@b87c2",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@24452",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d8977",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@a5054",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@b87c2",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d8977",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@7bd46",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@923ad",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@b87c2",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@923ad",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d8977",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@b87c2",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d8977",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@b87c2",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d8977",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@b87c2",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d8977",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@b87c2",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d8977",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@b87c2",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d8977",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@b87c2",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d8977",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@b87c2",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d8977",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@b87c2",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d8977",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@b87c2",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d8977",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@923ad",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d8977",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@923ad",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@c04a2",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@923ad",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@c04a2",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@923ad",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@c04a2",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@923ad",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@7bd46",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@923ad",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@a5054",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@24452",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d8977",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@1e7ee",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@928f6",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@923ad",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d20f1",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@28448",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@60ea7",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@aa9df",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@01899",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@60ea7",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@aa9df",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@60ea7",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@01899",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@aa9df",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d20f1",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@904b5",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@5ee1c",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d3c3a",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@5ee1c",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d3c3a",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@5ee1c",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@904b5",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d3c3a",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@5ee1c",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@904b5",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@a1ec1",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@c5eb2",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@a1ec1",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@c5eb2",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@a1ec1",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@c5eb2",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@a1ec1",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@c5eb2",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@06d7a",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d71e7",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@06d7a",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d71e7",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@06d7a",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d71e7",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@06d7a",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d71e7",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@06d7a",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d71e7",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@06d7a",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d71e7",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@06d7a",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@d71e7",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@c5e2b",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@b56da",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@ff265",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@b56da",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@ff265",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@923ad",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@91f2a",
+        "__expectedType__": "cc.Material"
+      },
+      {
+        "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@923ad",
+        "__expectedType__": "cc.Material"
+      }
+    ],
+    "_visFlags": 0,
+    "lightmapSettings": {
+      "__id__": 5
+    },
+    "_mesh": {
+      "__uuid__": "f4cb9d60-2ade-4d87-a591-fdbb0816d241@bcca5",
+      "__expectedType__": "cc.Mesh"
+    },
+    "_shadowCastingMode": 0,
+    "_shadowReceivingMode": 1,
+    "_enableMorph": true,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.CompPrefabInfo",
+    "fileId": "13L0tML6JYwZBVcZZof/9y"
+  },
+  {
+    "__type__": "cc.ModelLightmapSettings",
+    "texture": null,
+    "uvParam": {
+      "__type__": "cc.Vec4",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 0
+    },
+    "_bakeable": false,
+    "_castShadow": false,
+    "_receiveShadow": false,
+    "_recieveShadow": false,
+    "_lightmapSize": 64
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    },
+    "fileId": "14DI3sOz9WSIjNWJEV4mMF"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    },
+    "fileId": "ab5DbgeqpXvanTX5gLykJJ"
+  }
+]
