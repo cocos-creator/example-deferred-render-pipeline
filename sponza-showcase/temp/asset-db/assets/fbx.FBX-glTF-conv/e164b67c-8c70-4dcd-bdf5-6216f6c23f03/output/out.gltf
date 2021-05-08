@@ -1,0 +1,469 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1053,
+      "max": [
+        0.009082702919840813,
+        -0.0048529054038226604,
+        0.019181419163942337
+      ],
+      "min": [
+        -0.010877285152673721,
+        -0.015461103059351444,
+        0.0016778556164354086
+      ],
+      "name": "outer-ring/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 1053,
+      "name": "outer-ring/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 1053,
+      "name": "outer-ring/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 5760,
+      "name": "outer-ring/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 7754,
+      "max": [
+        0.008142189122736454,
+        -0.003597729839384556,
+        0.017567044124007225
+      ],
+      "min": [
+        -0.00967168714851141,
+        -0.014021753333508968,
+        0.002272566081956029
+      ],
+      "name": "inside-ball/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 7754,
+      "name": "inside-ball/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 7754,
+      "name": "inside-ball/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 44736,
+      "name": "inside-ball/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 11522,
+      "max": [
+        0.014238162897527218,
+        0.012344670481979847,
+        0.019508449360728264
+      ],
+      "min": [
+        -0.013722619041800499,
+        -0.015461104921996593,
+        -0.008494073525071144
+      ],
+      "name": "outside-ball/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 11522,
+      "name": "outside-ball/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 11522,
+      "name": "outside-ball/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 67680,
+      "name": "outside-ball/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 52825,
+      "max": [
+        0.01998521387577057,
+        0.019985219463706017,
+        -0.01797449216246605
+      ],
+      "min": [
+        -0.01998521387577057,
+        -0.019985219463706017,
+        -0.019508447498083115
+      ],
+      "name": "base/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 52825,
+      "name": "base/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 52825,
+      "name": "base/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5125,
+      "count": 303480,
+      "name": "base/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 14577,
+      "max": [
+        0.010315795429050922,
+        0.010315795429050922,
+        -0.007726291194558144
+      ],
+      "min": [
+        -0.010315795429050922,
+        -0.010315795429050922,
+        -0.01624404452741146
+      ],
+      "name": "pillar/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 14577,
+      "name": "pillar/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 14577,
+      "name": "pillar/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5125,
+      "count": 86016,
+      "name": "pillar/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 33696,
+      "byteStride": 32,
+      "name": "outer-ring",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 23040,
+      "byteOffset": 33696
+    },
+    {
+      "buffer": 0,
+      "byteLength": 248128,
+      "byteOffset": 56736,
+      "byteStride": 32,
+      "name": "inside-ball",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 178944,
+      "byteOffset": 304864
+    },
+    {
+      "buffer": 0,
+      "byteLength": 368704,
+      "byteOffset": 483808,
+      "byteStride": 32,
+      "name": "outside-ball",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 270720,
+      "byteOffset": 852512
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1690400,
+      "byteOffset": 1123232,
+      "byteStride": 32,
+      "name": "base",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1213920,
+      "byteOffset": 2813632
+    },
+    {
+      "buffer": 0,
+      "byteLength": 466464,
+      "byteOffset": 4027552,
+      "byteStride": 32,
+      "name": "pillar",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 344064,
+      "byteOffset": 4494016
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4838080,
+      "uri": "out.bin"
+    }
+  ],
+  "materials": [
+    {
+      "name": "03 - Default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5879999995231628,
+          0.5879999995231628,
+          0.5879999995231628,
+          1.0
+        ],
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.7071067690849304
+      }
+    },
+    {
+      "name": "02 - Default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9686275124549866,
+          0.9686275124549866,
+          0.9686275124549866,
+          1.0
+        ],
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.7071067690849304
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "outer-ring",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "inside-ball",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "outside-ball",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "base",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "pillar",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 17,
+            "POSITION": 16,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "outer-ring",
+      "rotation": [
+        -0.7071067690849304,
+        2.777441920898127e-08,
+        -5.8221294452209804e-09,
+        0.7071067690849304
+      ],
+      "scale": [
+        6.899746417999268,
+        6.8997416496276855,
+        6.899745464324951
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "inside-ball",
+      "rotation": [
+        -0.7071067690849304,
+        -3.9227774806249727e-08,
+        -1.479392963688042e-08,
+        0.7071067690849304
+      ],
+      "scale": [
+        6.899748802185059,
+        6.899750709533691,
+        6.899745941162109
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "outside-ball",
+      "rotation": [
+        -0.7071067690849304,
+        2.839481005878497e-08,
+        1.0069419964509052e-08,
+        0.7071067690849304
+      ],
+      "scale": [
+        6.899746894836426,
+        6.8997416496276855,
+        6.899745464324951
+      ]
+    },
+    {
+      "mesh": 3,
+      "name": "base",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ],
+      "scale": [
+        5.686001300811768,
+        5.686001300811768,
+        6.899746417999268
+      ]
+    },
+    {
+      "mesh": 4,
+      "name": "pillar",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ],
+      "scale": [
+        6.899750709533691,
+        6.899750709533691,
+        6.899746417999268
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

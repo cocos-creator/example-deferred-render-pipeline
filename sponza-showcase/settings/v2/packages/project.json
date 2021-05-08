@@ -1,0 +1,19 @@
+{
+  "__version__": "1.0.1",
+  "layer": [
+    {
+      "name": "canvas_18",
+      "value": 262144
+    },
+    {
+      "name": "canvas_19",
+      "value": 524288
+    }
+  ],
+  "general": {
+    "renderPipeline": "fd8ec536-a354-4a17-9c74-4f3883c378c8",
+    "designResolution": {
+      "fitHeight": true
+    }
+  }
+}

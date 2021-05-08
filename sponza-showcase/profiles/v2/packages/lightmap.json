@@ -1,0 +1,15 @@
+{
+  "__version__": "1.0.0",
+  "lightmap": {
+    "msaa": 4,
+    "size": "1024",
+    "gamma": 2.2,
+    "giScale": 0.5,
+    "giSamples": 25,
+    "giPathLength": 4,
+    "aoLevel": 0,
+    "aoStrength": 0.5,
+    "aoRadius": 1,
+    "aoColor": "#888"
+  }
+}

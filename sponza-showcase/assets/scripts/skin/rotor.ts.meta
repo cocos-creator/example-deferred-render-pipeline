@@ -1,0 +1,13 @@
+{
+  "ver": "4.0.22",
+  "importer": "typescript",
+  "imported": true,
+  "uuid": "16cc7989-fdb3-4850-a082-b122888cfb13",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "importAsPlugin": false,
+    "moduleId": "project:///assets/scripts/skin/rotor.js",
+    "simulateGlobals": []
+  }
+}

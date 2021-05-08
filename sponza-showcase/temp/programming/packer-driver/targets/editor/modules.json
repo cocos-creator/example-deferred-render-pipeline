@@ -1,0 +1,3468 @@
+{
+  "cce:/internal/x/cc": {
+    "mTimestamp": 7277.4818999916315,
+    "chunkId": "quick-pack:/cce/internal/x/cc.js",
+    "imports": [
+      {
+        "value": "cce:/internal/x/cc-fu/base",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 14
+          },
+          "end": {
+            "line": 1,
+            "column": 42
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 14
+          },
+          "end": {
+            "line": 2,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 14
+          },
+          "end": {
+            "line": 3,
+            "column": 48
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/3d",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 14
+          },
+          "end": {
+            "line": 4,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/2d",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 14
+          },
+          "end": {
+            "line": 5,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/ui",
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 14
+          },
+          "end": {
+            "line": 6,
+            "column": 40
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle",
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 14
+          },
+          "end": {
+            "line": 7,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/particle-2d",
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 14
+          },
+          "end": {
+            "line": 8,
+            "column": 49
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-framework",
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 14
+          },
+          "end": {
+            "line": 9,
+            "column": 55
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 14
+          },
+          "end": {
+            "line": 10,
+            "column": 58
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/intersection-2d",
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 14
+          },
+          "end": {
+            "line": 11,
+            "column": 53
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/primitive",
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 14
+          },
+          "end": {
+            "line": 12,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/profiler",
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 14
+          },
+          "end": {
+            "line": 13,
+            "column": 46
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/audio",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 14
+          },
+          "end": {
+            "line": 14,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/video",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 14
+          },
+          "end": {
+            "line": 15,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/terrain",
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 14
+          },
+          "end": {
+            "line": 16,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/webview",
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 14
+          },
+          "end": {
+            "line": 17,
+            "column": 45
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tween",
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 14
+          },
+          "end": {
+            "line": 18,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/tiled-map",
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 14
+          },
+          "end": {
+            "line": 19,
+            "column": 47
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/spine",
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 14
+          },
+          "end": {
+            "line": 20,
+            "column": 43
+          }
+        }
+      },
+      {
+        "value": "cce:/internal/x/cc-fu/dragon-bones",
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 14
+          },
+          "end": {
+            "line": 21,
+            "column": 50
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/base",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/gfx-webgl2",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/3d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/ui",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/particle-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/physics-2d-framework",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/intersection-2d",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/primitive",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/profiler",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/audio",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/video",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/terrain",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/webview",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tween",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/tiled-map",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/spine",
+        "isExternal": true
+      },
+      {
+        "specifierOrURL": "cce:/internal/x/cc-fu/dragon-bones",
+        "isExternal": true
+      }
+    ]
+  },
+  "cce:/internal/x/prerequisite-imports": {
+    "mTimestamp": 16196.259298995137,
+    "chunkId": "quick-pack:/cce/internal/x/prerequisite-imports.js",
+    "imports": [
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/migrate-canvas.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 35
+          },
+          "end": {
+            "line": 5,
+            "column": 112
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/prefabs/light-hint/light-hint.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 128
+          },
+          "end": {
+            "line": 5,
+            "column": 220
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/prefabs/pre-filter-envmap/pre-filter-envmap.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 236
+          },
+          "end": {
+            "line": 5,
+            "column": 342
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/ad-hoc/debug-info.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 358
+          },
+          "end": {
+            "line": 5,
+            "column": 446
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/ad-hoc/exposure.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 462
+          },
+          "end": {
+            "line": 5,
+            "column": 548
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/ad-hoc/instanced-skinning.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 564
+          },
+          "end": {
+            "line": 5,
+            "column": 660
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/ad-hoc/sponza.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 676
+          },
+          "end": {
+            "line": 5,
+            "column": 760
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/ad-hoc/toggler.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 776
+          },
+          "end": {
+            "line": 5,
+            "column": 861
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/audio/audio-controller.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 877
+          },
+          "end": {
+            "line": 5,
+            "column": 970
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/audio/audio.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 986
+          },
+          "end": {
+            "line": 5,
+            "column": 1068
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/collision-detection/emitter.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1084
+          },
+          "end": {
+            "line": 5,
+            "column": 1182
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/collision-detection/engine-info.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1198
+          },
+          "end": {
+            "line": 5,
+            "column": 1300
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/custom-effect/tunnel.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1316
+          },
+          "end": {
+            "line": 5,
+            "column": 1407
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/first-person-camera.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1423
+          },
+          "end": {
+            "line": 5,
+            "column": 1513
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/jellyfish/jellyfish.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1529
+          },
+          "end": {
+            "line": 5,
+            "column": 1619
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/jellyfish/spawn.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1635
+          },
+          "end": {
+            "line": 5,
+            "column": 1721
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/pbr/geometries.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1737
+          },
+          "end": {
+            "line": 5,
+            "column": 1822
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/physics-checker/PhysicsEnvCheck.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1838
+          },
+          "end": {
+            "line": 5,
+            "column": 1940
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/physics/collider-manager.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 1956
+          },
+          "end": {
+            "line": 5,
+            "column": 2051
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/physics/collider.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2067
+          },
+          "end": {
+            "line": 5,
+            "column": 2154
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/physics/ground.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2170
+          },
+          "end": {
+            "line": 5,
+            "column": 2255
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skill-effect/BladeStorm.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2271
+          },
+          "end": {
+            "line": 5,
+            "column": 2365
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skill-effect/healspell.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2381
+          },
+          "end": {
+            "line": 5,
+            "column": 2474
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skill-effect/self-destory.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2490
+          },
+          "end": {
+            "line": 5,
+            "column": 2586
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skin/SSS.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2602
+          },
+          "end": {
+            "line": 5,
+            "column": 2681
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skin/label-modifier.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2697
+          },
+          "end": {
+            "line": 5,
+            "column": 2787
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skin/rotor.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2803
+          },
+          "end": {
+            "line": 5,
+            "column": 2884
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/tangent-visualizer.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 2900
+          },
+          "end": {
+            "line": 5,
+            "column": 2989
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/testlist/backbutton.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 3005
+          },
+          "end": {
+            "line": 5,
+            "column": 3095
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/testlist/listitem.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 3111
+          },
+          "end": {
+            "line": 5,
+            "column": 3199
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/testlist/scenelist.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 3215
+          },
+          "end": {
+            "line": 5,
+            "column": 3304
+          }
+        }
+      },
+      {
+        "value": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/unlit-quad.ts",
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 3320
+          },
+          "end": {
+            "line": 5,
+            "column": 3401
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/migrate-canvas.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/prefabs/light-hint/light-hint.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/prefabs/pre-filter-envmap/pre-filter-envmap.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/ad-hoc/debug-info.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/ad-hoc/exposure.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/ad-hoc/instanced-skinning.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/ad-hoc/sponza.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/ad-hoc/toggler.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/audio/audio-controller.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/audio/audio.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/collision-detection/emitter.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/collision-detection/engine-info.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/custom-effect/tunnel.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/first-person-camera.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/jellyfish/jellyfish.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/jellyfish/spawn.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/pbr/geometries.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/physics-checker/PhysicsEnvCheck.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/physics/collider-manager.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/physics/collider.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/physics/ground.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skill-effect/BladeStorm.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skill-effect/healspell.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skill-effect/self-destory.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skin/SSS.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skin/label-modifier.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skin/rotor.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/tangent-visualizer.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/testlist/backbutton.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/testlist/listitem.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/testlist/scenelist.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/unlit-quad.ts"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/testlist/listitem.ts": {
+    "mTimestamp": 1614658105588.0261,
+    "chunkId": "assets/scripts/testlist/listitem.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 87
+          },
+          "end": {
+            "line": 1,
+            "column": 91
+          }
+        }
+      },
+      {
+        "value": "./backbutton",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 27
+          },
+          "end": {
+            "line": 2,
+            "column": 41
+          }
+        }
+      },
+      {
+        "value": "./scenelist",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 27
+          },
+          "end": {
+            "line": 3,
+            "column": 40
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/example_case/example-3d/show-cases/assets/scripts/testlist/backbutton.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/example_case/example-3d/show-cases/assets/scripts/testlist/scenelist.ts"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/unlit-quad.ts": {
+    "mTimestamp": 1614658105589.024,
+    "chunkId": "assets/scripts/unlit-quad.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 7
+          },
+          "end": {
+            "line": 4,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/migrate-canvas.ts": {
+    "mTimestamp": 1618568216632.3787,
+    "chunkId": "assets/migrate-canvas.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 85
+          },
+          "end": {
+            "line": 14,
+            "column": 89
+          }
+        }
+      },
+      {
+        "value": "cc/env",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 23
+          },
+          "end": {
+            "line": 15,
+            "column": 31
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "specifierOrURL": "cc/env",
+        "isExternal": true
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/first-person-camera.ts": {
+    "mTimestamp": 1614658105581.045,
+    "chunkId": "assets/scripts/first-person-camera.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 129
+          },
+          "end": {
+            "line": 1,
+            "column": 133
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/jellyfish/spawn.ts": {
+    "mTimestamp": 1614658105582.0425,
+    "chunkId": "assets/scripts/jellyfish/spawn.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 59
+          },
+          "end": {
+            "line": 1,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "./jellyfish",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 39
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/example_case/example-3d/show-cases/assets/scripts/jellyfish/jellyfish.ts"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/jellyfish/jellyfish.ts": {
+    "mTimestamp": 1614658105582.0425,
+    "chunkId": "assets/scripts/jellyfish/jellyfish.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 50
+          },
+          "end": {
+            "line": 1,
+            "column": 54
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/pbr/geometries.ts": {
+    "mTimestamp": 1614658105583.04,
+    "chunkId": "assets/scripts/pbr/geometries.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 102
+          },
+          "end": {
+            "line": 1,
+            "column": 106
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/physics/collider-manager.ts": {
+    "mTimestamp": 1614658105584.037,
+    "chunkId": "assets/scripts/physics/collider-manager.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 63
+          },
+          "end": {
+            "line": 2,
+            "column": 67
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 21
+          },
+          "end": {
+            "line": 3,
+            "column": 25
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/physics/collider.ts": {
+    "mTimestamp": 1614658105584.037,
+    "chunkId": "assets/scripts/physics/collider.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 86
+          },
+          "end": {
+            "line": 2,
+            "column": 90
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/physics-checker/PhysicsEnvCheck.ts": {
+    "mTimestamp": 1614658105583.04,
+    "chunkId": "assets/scripts/physics-checker/PhysicsEnvCheck.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 83
+          },
+          "end": {
+            "line": 1,
+            "column": 87
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/skill-effect/self-destory.ts": {
+    "mTimestamp": 1614658105586.0315,
+    "chunkId": "assets/scripts/skill-effect/self-destory.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 44
+          },
+          "end": {
+            "line": 1,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/skin/SSS.ts": {
+    "mTimestamp": 1614658105586.0315,
+    "chunkId": "assets/scripts/skin/SSS.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 88
+          },
+          "end": {
+            "line": 1,
+            "column": 92
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/physics/ground.ts": {
+    "mTimestamp": 1614658105585.0342,
+    "chunkId": "assets/scripts/physics/ground.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 78
+          },
+          "end": {
+            "line": 2,
+            "column": 82
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/skin/label-modifier.ts": {
+    "mTimestamp": 1614658105587.0288,
+    "chunkId": "assets/scripts/skin/label-modifier.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 71
+          },
+          "end": {
+            "line": 1,
+            "column": 75
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/skin/rotor.ts": {
+    "mTimestamp": 1614658105587.0288,
+    "chunkId": "assets/scripts/skin/rotor.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 44
+          },
+          "end": {
+            "line": 1,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/tangent-visualizer.ts": {
+    "mTimestamp": 1614658105587.0288,
+    "chunkId": "assets/scripts/tangent-visualizer.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 120
+          },
+          "end": {
+            "line": 1,
+            "column": 124
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/skill-effect/healspell.ts": {
+    "mTimestamp": 1614658105586.0315,
+    "chunkId": "assets/scripts/skill-effect/healspell.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 65
+          },
+          "end": {
+            "line": 1,
+            "column": 69
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/skill-effect/BladeStorm.ts": {
+    "mTimestamp": 1614658105585.0342,
+    "chunkId": "assets/scripts/skill-effect/BladeStorm.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 65
+          },
+          "end": {
+            "line": 1,
+            "column": 69
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/testlist/scenelist.ts": {
+    "mTimestamp": 1614658105589.024,
+    "chunkId": "assets/scripts/testlist/scenelist.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 65
+          },
+          "end": {
+            "line": 1,
+            "column": 69
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/testlist/backbutton.ts": {
+    "mTimestamp": 1614658105588.0261,
+    "chunkId": "assets/scripts/testlist/backbutton.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 137
+          },
+          "end": {
+            "line": 1,
+            "column": 141
+          }
+        }
+      },
+      {
+        "value": "./scenelist",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 27
+          },
+          "end": {
+            "line": 3,
+            "column": 40
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/example_case/example-3d/show-cases/assets/scripts/testlist/scenelist.ts"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/ad-hoc/debug-info.ts": {
+    "mTimestamp": 1614658105577.0557,
+    "chunkId": "assets/scripts/ad-hoc/debug-info.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 72
+          },
+          "end": {
+            "line": 1,
+            "column": 76
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/prefabs/light-hint/light-hint.ts": {
+    "mTimestamp": 1614658105548.1333,
+    "chunkId": "assets/prefabs/light-hint/light-hint.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 129
+          },
+          "end": {
+            "line": 1,
+            "column": 133
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/ad-hoc/exposure.ts": {
+    "mTimestamp": 1614658105578.053,
+    "chunkId": "assets/scripts/ad-hoc/exposure.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 105
+          },
+          "end": {
+            "line": 1,
+            "column": 109
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/ad-hoc/toggler.ts": {
+    "mTimestamp": 1614658105579.0505,
+    "chunkId": "assets/scripts/ad-hoc/toggler.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 38
+          },
+          "end": {
+            "line": 1,
+            "column": 42
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/prefabs/pre-filter-envmap/pre-filter-envmap.ts": {
+    "mTimestamp": 1619792320612.599,
+    "chunkId": "assets/prefabs/pre-filter-envmap/pre-filter-envmap.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 95
+          },
+          "end": {
+            "line": 2,
+            "column": 99
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/ad-hoc/instanced-skinning.ts": {
+    "mTimestamp": 1614658105578.053,
+    "chunkId": "assets/scripts/ad-hoc/instanced-skinning.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 70
+          },
+          "end": {
+            "line": 2,
+            "column": 74
+          }
+        }
+      },
+      {
+        "value": "../unlit-quad",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 35
+          },
+          "end": {
+            "line": 3,
+            "column": 50
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/example_case/example-3d/show-cases/assets/scripts/unlit-quad.ts"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/audio/audio-controller.ts": {
+    "mTimestamp": 1614658105579.0505,
+    "chunkId": "assets/scripts/audio/audio-controller.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 110
+          },
+          "end": {
+            "line": 1,
+            "column": 114
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/ad-hoc/sponza.ts": {
+    "mTimestamp": 1614658105578.053,
+    "chunkId": "assets/scripts/ad-hoc/sponza.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 72
+          },
+          "end": {
+            "line": 1,
+            "column": 76
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/collision-detection/engine-info.ts": {
+    "mTimestamp": 1614658105581.045,
+    "chunkId": "assets/scripts/collision-detection/engine-info.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 54
+          },
+          "end": {
+            "line": 2,
+            "column": 58
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/audio/audio.ts": {
+    "mTimestamp": 1614658105580.0483,
+    "chunkId": "assets/scripts/audio/audio.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 86
+          },
+          "end": {
+            "line": 3,
+            "column": 90
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/collision-detection/emitter.ts": {
+    "mTimestamp": 1614658105580.0483,
+    "chunkId": "assets/scripts/collision-detection/emitter.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 85
+          },
+          "end": {
+            "line": 2,
+            "column": 89
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/example_case/example-3d/show-cases/assets/scripts/custom-effect/tunnel.ts": {
+    "mTimestamp": 1614658105581.045,
+    "chunkId": "assets/scripts/custom-effect/tunnel.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 90
+          },
+          "end": {
+            "line": 1,
+            "column": 94
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "cce:/internal/code-quality/cr.mjs": {
+    "mTimestamp": 1618568217408.2197,
+    "chunkId": "quick-pack:/cce/internal/code-quality/cr.js",
+    "imports": [],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": []
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/prefabs/light-hint/light-hint.ts": {
+    "mTimestamp": 1614658105548.1333,
+    "chunkId": "assets/prefabs/light-hint/light-hint.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 129
+          },
+          "end": {
+            "line": 1,
+            "column": 133
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/prefabs/pre-filter-envmap/pre-filter-envmap.ts": {
+    "mTimestamp": 1619792320612.599,
+    "chunkId": "assets/prefabs/pre-filter-envmap/pre-filter-envmap.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 95
+          },
+          "end": {
+            "line": 2,
+            "column": 99
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/migrate-canvas.ts": {
+    "mTimestamp": 1618568216632.3787,
+    "chunkId": "assets/migrate-canvas.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 85
+          },
+          "end": {
+            "line": 14,
+            "column": 89
+          }
+        }
+      },
+      {
+        "value": "cc/env",
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 23
+          },
+          "end": {
+            "line": 15,
+            "column": 31
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "specifierOrURL": "cc/env",
+        "isExternal": true
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/ad-hoc/debug-info.ts": {
+    "mTimestamp": 1614658105577.0557,
+    "chunkId": "assets/scripts/ad-hoc/debug-info.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 72
+          },
+          "end": {
+            "line": 1,
+            "column": 76
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/ad-hoc/instanced-skinning.ts": {
+    "mTimestamp": 1614658105578.053,
+    "chunkId": "assets/scripts/ad-hoc/instanced-skinning.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 70
+          },
+          "end": {
+            "line": 2,
+            "column": 74
+          }
+        }
+      },
+      {
+        "value": "../unlit-quad",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 35
+          },
+          "end": {
+            "line": 3,
+            "column": 50
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/unlit-quad.ts"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/ad-hoc/exposure.ts": {
+    "mTimestamp": 1614658105578.053,
+    "chunkId": "assets/scripts/ad-hoc/exposure.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 105
+          },
+          "end": {
+            "line": 1,
+            "column": 109
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/ad-hoc/toggler.ts": {
+    "mTimestamp": 1614658105579.0505,
+    "chunkId": "assets/scripts/ad-hoc/toggler.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 38
+          },
+          "end": {
+            "line": 1,
+            "column": 42
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/collision-detection/engine-info.ts": {
+    "mTimestamp": 1614658105581.045,
+    "chunkId": "assets/scripts/collision-detection/engine-info.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 54
+          },
+          "end": {
+            "line": 2,
+            "column": 58
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/audio/audio-controller.ts": {
+    "mTimestamp": 1614658105579.0505,
+    "chunkId": "assets/scripts/audio/audio-controller.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 110
+          },
+          "end": {
+            "line": 1,
+            "column": 114
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/audio/audio.ts": {
+    "mTimestamp": 1614658105580.0483,
+    "chunkId": "assets/scripts/audio/audio.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 86
+          },
+          "end": {
+            "line": 3,
+            "column": 90
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/ad-hoc/sponza.ts": {
+    "mTimestamp": 1614658105578.053,
+    "chunkId": "assets/scripts/ad-hoc/sponza.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 72
+          },
+          "end": {
+            "line": 1,
+            "column": 76
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/first-person-camera.ts": {
+    "mTimestamp": 1614658105581.045,
+    "chunkId": "assets/scripts/first-person-camera.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 129
+          },
+          "end": {
+            "line": 1,
+            "column": 133
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/custom-effect/tunnel.ts": {
+    "mTimestamp": 1614658105581.045,
+    "chunkId": "assets/scripts/custom-effect/tunnel.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 90
+          },
+          "end": {
+            "line": 1,
+            "column": 94
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/collision-detection/emitter.ts": {
+    "mTimestamp": 1614658105580.0483,
+    "chunkId": "assets/scripts/collision-detection/emitter.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 85
+          },
+          "end": {
+            "line": 2,
+            "column": 89
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/jellyfish/jellyfish.ts": {
+    "mTimestamp": 1614658105582.0425,
+    "chunkId": "assets/scripts/jellyfish/jellyfish.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 50
+          },
+          "end": {
+            "line": 1,
+            "column": 54
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/physics-checker/PhysicsEnvCheck.ts": {
+    "mTimestamp": 1614658105583.04,
+    "chunkId": "assets/scripts/physics-checker/PhysicsEnvCheck.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 83
+          },
+          "end": {
+            "line": 1,
+            "column": 87
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/pbr/geometries.ts": {
+    "mTimestamp": 1614658105583.04,
+    "chunkId": "assets/scripts/pbr/geometries.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 102
+          },
+          "end": {
+            "line": 1,
+            "column": 106
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/jellyfish/spawn.ts": {
+    "mTimestamp": 1614658105582.0425,
+    "chunkId": "assets/scripts/jellyfish/spawn.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 59
+          },
+          "end": {
+            "line": 1,
+            "column": 63
+          }
+        }
+      },
+      {
+        "value": "./jellyfish",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 26
+          },
+          "end": {
+            "line": 2,
+            "column": 39
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/jellyfish/jellyfish.ts"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/physics/collider-manager.ts": {
+    "mTimestamp": 1614658105584.037,
+    "chunkId": "assets/scripts/physics/collider-manager.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 63
+          },
+          "end": {
+            "line": 2,
+            "column": 67
+          }
+        }
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 21
+          },
+          "end": {
+            "line": 3,
+            "column": 25
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/physics/collider.ts": {
+    "mTimestamp": 1614658105584.037,
+    "chunkId": "assets/scripts/physics/collider.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 86
+          },
+          "end": {
+            "line": 2,
+            "column": 90
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/physics/ground.ts": {
+    "mTimestamp": 1614658105585.0342,
+    "chunkId": "assets/scripts/physics/ground.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 78
+          },
+          "end": {
+            "line": 2,
+            "column": 82
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skin/SSS.ts": {
+    "mTimestamp": 1614658105586.0315,
+    "chunkId": "assets/scripts/skin/SSS.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 88
+          },
+          "end": {
+            "line": 1,
+            "column": 92
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skill-effect/self-destory.ts": {
+    "mTimestamp": 1614658105586.0315,
+    "chunkId": "assets/scripts/skill-effect/self-destory.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 44
+          },
+          "end": {
+            "line": 1,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skill-effect/BladeStorm.ts": {
+    "mTimestamp": 1614658105585.0342,
+    "chunkId": "assets/scripts/skill-effect/BladeStorm.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 65
+          },
+          "end": {
+            "line": 1,
+            "column": 69
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skin/label-modifier.ts": {
+    "mTimestamp": 1614658105587.0288,
+    "chunkId": "assets/scripts/skin/label-modifier.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 71
+          },
+          "end": {
+            "line": 1,
+            "column": 75
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skin/rotor.ts": {
+    "mTimestamp": 1614658105587.0288,
+    "chunkId": "assets/scripts/skin/rotor.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 44
+          },
+          "end": {
+            "line": 1,
+            "column": 48
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skill-effect/healspell.ts": {
+    "mTimestamp": 1614658105586.0315,
+    "chunkId": "assets/scripts/skill-effect/healspell.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 65
+          },
+          "end": {
+            "line": 1,
+            "column": 69
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/testlist/scenelist.ts": {
+    "mTimestamp": 1614658105589.024,
+    "chunkId": "assets/scripts/testlist/scenelist.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 65
+          },
+          "end": {
+            "line": 1,
+            "column": 69
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/testlist/backbutton.ts": {
+    "mTimestamp": 1614658105588.0261,
+    "chunkId": "assets/scripts/testlist/backbutton.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 137
+          },
+          "end": {
+            "line": 1,
+            "column": 141
+          }
+        }
+      },
+      {
+        "value": "./scenelist",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 27
+          },
+          "end": {
+            "line": 3,
+            "column": 40
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/testlist/scenelist.ts"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/tangent-visualizer.ts": {
+    "mTimestamp": 1614658105587.0288,
+    "chunkId": "assets/scripts/tangent-visualizer.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 120
+          },
+          "end": {
+            "line": 1,
+            "column": 124
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/testlist/listitem.ts": {
+    "mTimestamp": 1614658105588.0261,
+    "chunkId": "assets/scripts/testlist/listitem.js",
+    "imports": [
+      {
+        "value": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 1,
+            "column": 87
+          },
+          "end": {
+            "line": 1,
+            "column": 91
+          }
+        }
+      },
+      {
+        "value": "./backbutton",
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 27
+          },
+          "end": {
+            "line": 2,
+            "column": 41
+          }
+        }
+      },
+      {
+        "value": "./scenelist",
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 27
+          },
+          "end": {
+            "line": 3,
+            "column": 40
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/code-quality/cr.mjs"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/testlist/backbutton.ts"
+      },
+      {
+        "isExternal": false,
+        "url": "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/testlist/scenelist.ts"
+      }
+    ]
+  },
+  "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/unlit-quad.ts": {
+    "mTimestamp": 1614658105589.024,
+    "chunkId": "assets/scripts/unlit-quad.js",
+    "imports": [
+      {
+        "value": "cc"
+      },
+      {
+        "value": "cc",
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 7
+          },
+          "end": {
+            "line": 4,
+            "column": 11
+          }
+        }
+      }
+    ],
+    "modLoMetadata": {
+      "type": "esm"
+    },
+    "resolvedImports": [
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      },
+      {
+        "isExternal": false,
+        "url": "cce:/internal/x/cc"
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 818,
+      "max": [
+        17.466928482055664,
+        11.390305519104004,
+        13.47195816040039
+      ],
+      "min": [
+        -18.669828414916992,
+        -10.397111892700195,
+        -1.2644249200820923
+      ],
+      "name": "sponza_379/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 818,
+      "name": "sponza_379/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 818,
+      "name": "sponza_379/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 32,
+      "componentType": 5126,
+      "count": 818,
+      "name": "sponza_379/TEXCOORD_1",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 1920,
+      "name": "sponza_379/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 32720,
+      "byteStride": 40,
+      "name": "sponza_379",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7680,
+      "byteOffset": 32720
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 40400,
+      "uri": "out.bin"
+    }
+  ],
+  "images": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "D:\\Artworks\\Unrestrict use\\sponza_max_crytek\\textures\\spnza_bricks_a_diff.tga",
+          "relativeFileName": "D:\\Artworks\\Unrestrict use\\sponza_max_crytek\\textures\\spnza_bricks_a_diff.tga"
+        }
+      },
+      "name": "Map #16",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    },
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "fileName": "D:\\Artworks\\Unrestrict use\\sponza_max_crytek\\textures\\spnza_bricks_a_ddn.tga",
+          "relativeFileName": "D:\\Artworks\\Unrestrict use\\sponza_max_crytek\\textures\\spnza_bricks_a_ddn.tga"
+        }
+      },
+      "name": "Map #17",
+      "uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/PchI7wAAAABJRU5ErkJggg=="
+    }
+  ],
+  "materials": [
+    {
+      "name": "bricks",
+      "normalTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.24253562092781067
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "sponza_379",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "sponza_379",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ],
+      "scale": [
+        0.029999999329447746,
+        0.029999999329447746,
+        0.029999999329447746
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "Map #16",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "Map #17",
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}

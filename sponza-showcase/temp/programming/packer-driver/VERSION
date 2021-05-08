@@ -1,0 +1,9 @@
+{
+  "version": "7",
+  "config": {
+    "useDefineForClassFields": true,
+    "allowDeclareFields": true,
+    "loose": true,
+    "guessCommonJsExports": false
+  }
+}

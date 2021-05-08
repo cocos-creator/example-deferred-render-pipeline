@@ -1,0 +1,506 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 14577,
+      "max": [
+        0.010317138396203518,
+        0.010317138396203518,
+        0.011526262387633324
+      ],
+      "min": [
+        -0.010317138396203518,
+        -0.010317138396203518,
+        0.0030085095204412937
+      ],
+      "name": "pillar/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 14577,
+      "name": "pillar/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 14577,
+      "name": "pillar/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5125,
+      "count": 86016,
+      "name": "pillar/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 52941,
+      "max": [
+        0.019987821578979492,
+        0.019987815991044044,
+        0.0015339553356170654
+      ],
+      "min": [
+        -0.019987821578979492,
+        -0.019987815991044044,
+        0.0
+      ],
+      "name": "base/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 52941,
+      "name": "base/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 52941,
+      "name": "base/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 305640,
+      "name": "base/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 11522,
+      "max": [
+        0.014009006321430206,
+        0.013995937071740627,
+        0.014004101976752281
+      ],
+      "min": [
+        -0.013984538614749908,
+        -0.013995932415127754,
+        -0.01406300812959671
+      ],
+      "name": "outside-ball/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 11522,
+      "name": "outside-ball/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 11522,
+      "name": "outside-ball/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5125,
+      "count": 67680,
+      "name": "outside-ball/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 572,
+      "max": [
+        0.006864533293992281,
+        0.008959850296378136,
+        0.01036132127046585
+      ],
+      "min": [
+        -0.0033690861891955137,
+        -0.008996555581688881,
+        -0.0049954988062381744
+      ],
+      "name": "inside-ball/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 572,
+      "name": "inside-ball/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 572,
+      "name": "inside-ball/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5125,
+      "count": 2844,
+      "name": "inside-ball/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 1053,
+      "max": [
+        0.014009005390107632,
+        0.01005372405052185,
+        0.013881130144000053
+      ],
+      "min": [
+        0.0025054023135453463,
+        -0.010053720325231552,
+        -0.0028206491842865944
+      ],
+      "name": "对象001/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 1053,
+      "name": "对象001/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 1053,
+      "name": "对象001/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5125,
+      "count": 5760,
+      "name": "对象001/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 466464,
+      "byteStride": 32,
+      "name": "pillar",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 344064,
+      "byteOffset": 466464
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1694112,
+      "byteOffset": 810528,
+      "byteStride": 32,
+      "name": "base",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1222560,
+      "byteOffset": 2504640
+    },
+    {
+      "buffer": 0,
+      "byteLength": 368704,
+      "byteOffset": 3727200,
+      "byteStride": 32,
+      "name": "outside-ball",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 270720,
+      "byteOffset": 4095904
+    },
+    {
+      "buffer": 0,
+      "byteLength": 18304,
+      "byteOffset": 4366624,
+      "byteStride": 32,
+      "name": "inside-ball",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 11376,
+      "byteOffset": 4384928
+    },
+    {
+      "buffer": 0,
+      "byteLength": 33696,
+      "byteOffset": 4396304,
+      "byteStride": 32,
+      "name": "对象001",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 23040,
+      "byteOffset": 4430000
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4453040,
+      "uri": "out.bin"
+    }
+  ],
+  "materials": [
+    {
+      "name": "03 - Default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5879999995231628,
+          0.5879999995231628,
+          0.5879999995231628,
+          1.0
+        ],
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.7071067690849304
+      }
+    },
+    {
+      "name": "02 - Default",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.9686275124549866,
+          0.9686275124549866,
+          0.9686275124549866,
+          1.0
+        ],
+        "metallicFactor": 0.4000000059604645,
+        "roughnessFactor": 0.7071067690849304
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "pillar",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "base",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "outside-ball",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "inside-ball",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "对象001",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 17,
+            "POSITION": 16,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "name": "material-ball",
+      "rotation": [
+        -0.7071067690849304,
+        -0.0,
+        0.0,
+        0.7071067690849304
+      ]
+    },
+    {
+      "mesh": 0,
+      "name": "pillar",
+      "rotation": [
+        -3.97922372593392e-35,
+        3.915520025122451e-35,
+        -0.7013782262802124,
+        0.7127892971038818
+      ],
+      "scale": [
+        6.899749279022217,
+        6.899749279022217,
+        6.899746417999268
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        -0.13283775746822357
+      ]
+    },
+    {
+      "mesh": 1,
+      "name": "base",
+      "rotation": [
+        0.0,
+        -0.0,
+        -0.7013782262802124,
+        0.7127892971038818
+      ],
+      "scale": [
+        5.686001300811768,
+        5.686001300811768,
+        6.899746417999268
+      ],
+      "translation": [
+        0.0,
+        0.0,
+        -0.134603351354599
+      ]
+    },
+    {
+      "mesh": 2,
+      "name": "outside-ball",
+      "rotation": [
+        0.015248851850628853,
+        0.040867116302251816,
+        -0.7601087093353271,
+        0.6483302116394043
+      ],
+      "scale": [
+        6.899747371673584,
+        6.899742603302002,
+        6.899746894836426
+      ],
+      "translation": [
+        0.0018910979852080345,
+        -0.011411133222281933,
+        0.0383702851831913
+      ]
+    },
+    {
+      "mesh": 3,
+      "name": "inside-ball",
+      "rotation": [
+        -0.01142312865704298,
+        0.010062064975500107,
+        -0.7611016035079956,
+        0.6484540104866028
+      ],
+      "scale": [
+        6.899749279022217,
+        6.899749755859375,
+        6.899745941162109
+      ],
+      "translation": [
+        -0.0041615962982177734,
+        -0.04922424256801605,
+        0.04991752654314041
+      ]
+    },
+    {
+      "mesh": 4,
+      "name": "对象001",
+      "rotation": [
+        0.015248846262693405,
+        0.040867116302251816,
+        -0.7601087093353271,
+        0.6483302712440491
+      ],
+      "scale": [
+        6.899747848510742,
+        6.899742126464844,
+        6.899746417999268
+      ],
+      "translation": [
+        0.0018910979852080345,
+        -0.011411133222281933,
+        0.0383702851831913
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

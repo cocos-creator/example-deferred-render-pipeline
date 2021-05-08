@@ -1,0 +1,22 @@
+2021-05-07 16:59:54 Version 31
+2021-05-07 16:59:54 D:\editor-3d\tools\lightmap-tools/LightFX http://127.0.0.1:8000 
+2021-05-07 16:59:54 -:Building meshes
+2021-05-07 16:59:54 -:Building terrain
+2021-05-07 16:59:54 -:Building bv scene
+2021-05-07 16:59:55 Start 0
+
+2021-05-07 16:59:55 Build lighting 50
+
+2021-05-07 16:59:56 Build lighting 100
+
+2021-05-07 16:59:56 Save world...
+2021-05-07 16:59:56 Writing lfx file 'output/lfx.o'
+2021-05-07 16:59:56 Pack mesh 0
+2021-05-07 16:59:56 Save lighting map output/LFX_Mesh_0000.png
+2021-05-07 16:59:56 Writing lfx file end.
+2021-05-07 16:59:56 Save world end.
+2021-05-07 16:59:56 Clear world...
+2021-05-07 16:59:56 Clear world end.
+2021-05-07 16:59:56 Emit finished
+2021-05-07 16:59:56 Delete world
+2021-05-07 16:59:56 Wait to stop

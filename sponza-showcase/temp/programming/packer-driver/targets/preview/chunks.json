@@ -1,0 +1,287 @@
+{
+  "assets/prefabs/light-hint/light-hint.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/prefabs/light-hint/light-hint.js",
+    "mTimestamp": 1620463392085
+  },
+  "assets/scripts/ad-hoc/debug-info.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/ad-hoc/debug-info.js",
+    "mTimestamp": 1620463392151
+  },
+  "assets/scripts/ad-hoc/exposure.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/ad-hoc/exposure.js",
+    "mTimestamp": 1620463392181
+  },
+  "assets/scripts/ad-hoc/instanced-skinning.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
+      "../unlit-quad": "assets/scripts/unlit-quad.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/ad-hoc/instanced-skinning.js",
+    "mTimestamp": 1620463392285
+  },
+  "assets/scripts/ad-hoc/sponza.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/ad-hoc/sponza.js",
+    "mTimestamp": 1620463392220
+  },
+  "assets/scripts/ad-hoc/toggler.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/ad-hoc/toggler.js",
+    "mTimestamp": 1620463392307
+  },
+  "assets/scripts/audio/audio-controller.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/audio/audio-controller.js",
+    "mTimestamp": 1620463392357
+  },
+  "assets/scripts/audio/audio.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/audio/audio.js",
+    "mTimestamp": 1620463392402
+  },
+  "assets/scripts/collision-detection/emitter.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/collision-detection/emitter.js",
+    "mTimestamp": 1620463392475
+  },
+  "assets/scripts/collision-detection/engine-info.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/collision-detection/engine-info.js",
+    "mTimestamp": 1620463392495
+  },
+  "assets/scripts/custom-effect/tunnel.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/custom-effect/tunnel.js",
+    "mTimestamp": 1620463392553
+  },
+  "assets/scripts/first-person-camera.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/first-person-camera.js",
+    "mTimestamp": 1620463392635
+  },
+  "assets/scripts/jellyfish/jellyfish.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/jellyfish/jellyfish.js",
+    "mTimestamp": 1620463392695
+  },
+  "assets/scripts/jellyfish/spawn.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
+      "./jellyfish": "assets/scripts/jellyfish/jellyfish.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/jellyfish/spawn.js",
+    "mTimestamp": 1620463392734
+  },
+  "assets/scripts/pbr/geometries.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/pbr/geometries.js",
+    "mTimestamp": 1620463392764
+  },
+  "assets/scripts/physics-checker/PhysicsEnvCheck.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/physics-checker/PhysicsEnvCheck.js",
+    "mTimestamp": 1620463392802
+  },
+  "assets/scripts/physics/collider-manager.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/physics/collider-manager.js",
+    "mTimestamp": 1620463392852
+  },
+  "assets/scripts/physics/collider.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/physics/collider.js",
+    "mTimestamp": 1620463392883
+  },
+  "assets/scripts/physics/ground.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/physics/ground.js",
+    "mTimestamp": 1620463392924
+  },
+  "assets/scripts/skill-effect/BladeStorm.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/skill-effect/BladeStorm.js",
+    "mTimestamp": 1620463392971
+  },
+  "assets/scripts/skill-effect/healspell.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/skill-effect/healspell.js",
+    "mTimestamp": 1620463393007
+  },
+  "assets/scripts/skill-effect/self-destory.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/skill-effect/self-destory.js",
+    "mTimestamp": 1620463393027
+  },
+  "assets/scripts/skin/SSS.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/skin/SSS.js",
+    "mTimestamp": 1620463393054
+  },
+  "assets/scripts/skin/label-modifier.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/skin/label-modifier.js",
+    "mTimestamp": 1620463393084
+  },
+  "assets/scripts/skin/rotor.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/skin/rotor.js",
+    "mTimestamp": 1620463393116
+  },
+  "assets/scripts/tangent-visualizer.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/tangent-visualizer.js",
+    "mTimestamp": 1620463393173
+  },
+  "assets/scripts/testlist/backbutton.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
+      "./scenelist": "assets/scripts/testlist/scenelist.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/testlist/backbutton.js",
+    "mTimestamp": 1620463393221
+  },
+  "assets/scripts/testlist/listitem.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
+      "./backbutton": "assets/scripts/testlist/backbutton.js",
+      "./scenelist": "assets/scripts/testlist/scenelist.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/testlist/listitem.js",
+    "mTimestamp": 1620463393254
+  },
+  "assets/scripts/testlist/scenelist.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/testlist/scenelist.js",
+    "mTimestamp": 1620463393285
+  },
+  "assets/scripts/unlit-quad.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/unlit-quad.js",
+    "mTimestamp": 1620463393348
+  },
+  "quick-pack:/cce/internal/code-quality/cr.js": {
+    "imports": {},
+    "physicalLocation": "cce/internal/code-quality/cr.js",
+    "mTimestamp": 1619497322444
+  },
+  "assets/migrate-canvas.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/migrate-canvas.js",
+    "mTimestamp": 1620463391976
+  },
+  "assets/prefabs/pre-filter-envmap/pre-filter-envmap.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/prefabs/pre-filter-envmap/pre-filter-envmap.js",
+    "mTimestamp": 1620463392046
+  },
+  "quick-pack:/cce/internal/x/cc.js": {
+    "imports": {},
+    "physicalLocation": "cce/internal/x/cc.js",
+    "mTimestamp": 1620463391839,
+    "isEntry": true,
+    "exposeAs": "cce:/internal/x/cc"
+  },
+  "quick-pack:/cce/internal/x/prerequisite-imports.js": {
+    "imports": {
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/migrate-canvas.ts": "assets/migrate-canvas.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/prefabs/pre-filter-envmap/pre-filter-envmap.ts": "assets/prefabs/pre-filter-envmap/pre-filter-envmap.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/prefabs/light-hint/light-hint.ts": "assets/prefabs/light-hint/light-hint.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/ad-hoc/debug-info.ts": "assets/scripts/ad-hoc/debug-info.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/ad-hoc/exposure.ts": "assets/scripts/ad-hoc/exposure.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/ad-hoc/sponza.ts": "assets/scripts/ad-hoc/sponza.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/ad-hoc/instanced-skinning.ts": "assets/scripts/ad-hoc/instanced-skinning.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/ad-hoc/toggler.ts": "assets/scripts/ad-hoc/toggler.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/audio/audio-controller.ts": "assets/scripts/audio/audio-controller.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/audio/audio.ts": "assets/scripts/audio/audio.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/collision-detection/emitter.ts": "assets/scripts/collision-detection/emitter.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/collision-detection/engine-info.ts": "assets/scripts/collision-detection/engine-info.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/custom-effect/tunnel.ts": "assets/scripts/custom-effect/tunnel.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/first-person-camera.ts": "assets/scripts/first-person-camera.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/jellyfish/jellyfish.ts": "assets/scripts/jellyfish/jellyfish.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/jellyfish/spawn.ts": "assets/scripts/jellyfish/spawn.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/pbr/geometries.ts": "assets/scripts/pbr/geometries.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/physics-checker/PhysicsEnvCheck.ts": "assets/scripts/physics-checker/PhysicsEnvCheck.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/physics/collider-manager.ts": "assets/scripts/physics/collider-manager.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/physics/collider.ts": "assets/scripts/physics/collider.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/physics/ground.ts": "assets/scripts/physics/ground.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skill-effect/BladeStorm.ts": "assets/scripts/skill-effect/BladeStorm.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skill-effect/healspell.ts": "assets/scripts/skill-effect/healspell.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skill-effect/self-destory.ts": "assets/scripts/skill-effect/self-destory.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skin/SSS.ts": "assets/scripts/skin/SSS.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skin/label-modifier.ts": "assets/scripts/skin/label-modifier.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/skin/rotor.ts": "assets/scripts/skin/rotor.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/tangent-visualizer.ts": "assets/scripts/tangent-visualizer.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/testlist/backbutton.ts": "assets/scripts/testlist/backbutton.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/testlist/listitem.ts": "assets/scripts/testlist/listitem.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/testlist/scenelist.ts": "assets/scripts/testlist/scenelist.js",
+      "file:///D:/Deferred_RenderPipeline/sponza-showcase/assets/scripts/unlit-quad.ts": "assets/scripts/unlit-quad.js"
+    },
+    "physicalLocation": "cce/internal/x/prerequisite-imports.js",
+    "mTimestamp": 1620463391876,
+    "isEntry": true,
+    "exposeAs": "cce:/internal/x/prerequisite-imports"
+  }
+}
