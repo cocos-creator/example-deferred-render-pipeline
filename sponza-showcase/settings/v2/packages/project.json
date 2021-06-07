@@ -13,7 +13,9 @@
   "general": {
     "renderPipeline": "5d45ba66-829a-46d3-948e-2ed3fa7ee421",
     "designResolution": {
-      "fitHeight": true
+      "fitHeight": true,
+      "width": 1920,
+      "height": 1080
     }
   }
 }
