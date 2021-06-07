@@ -24,10 +24,10 @@ export class spherelight extends Component {
    update (deltaTime: number) {
        this._num ++;
 
-       if (this._num % 50 === 0) {
-        this.number2 = randomRange(0.1,0.9) / 50;
+       if (this._num % 30 === 0) {
+        this.number2 = randomRange(0.1,0.9) / 30;
         this.number3 = this.number2 > 0.8 ? 1.0 : -1.0;
-        this.number4 = this.number2 < 0.2 ? 1.0 : -1.0;
+        this.number4 = this.number2 < 0.8 ? 1.0 : -1.0;
        }
        
        this._time += this.number2 * this.number4;
